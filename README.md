@@ -1,17 +1,17 @@
-#SparkleBot
+## SparkleBot
 SparkleBot integrates with business owners Facebook pages to create a dynamic chat experience with customers. The bot is able to answer frequently asked questions in an effort to take burden off of business owners; enabling them to spend time on other tasks and services. Additionally the chatbot is fully customizable through a user friendly website that allows business owners to set the chat bot responses.
 
-#Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-#Prerequisites
+## Prerequisites
 Before you get started, make sure you have the following software installed on your computer:
 
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
 - [Nodemon](https://nodemon.io/)
 
-#Installing
+## Installing
 - Run `npm install`
 - Create a .env file at the rot of the project and paste this line into the file:
 `SERVER_SESSION_SECRET=superDuperSecret`
@@ -25,7 +25,7 @@ In your .env file, replace `superDuperSecret` with a long random string to keep 
 - Run `npm run client`
 - Navigate to `localhost:3000`
 
-#Deployment
+## Deployment
 Deploying SparkleBot to Heroku works as follows:
 
 - Create the Heroku app which will host SparkleBot.
